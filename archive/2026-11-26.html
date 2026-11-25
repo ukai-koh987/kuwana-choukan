@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta property="og:title" content="KUWANA朝刊 2026年11月26日（木）">
+<meta property="og:description" content="経済・政治・行政・税制・国際経済を不動産の目線で">
+<title>KUWANA朝刊</title>
+<meta name="description" content="KUWANA朝刊 2026年11月26日号：経済・政治・行政・税制・国際経済を不動産の目線で">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE work: a morning paper for a property team, read on phones on the go
+   IDEA a Japanese broadsheet: red masthead box, ruled columns, market table, two "pages" (国内 / 国際経済)
+   PICTURE market board with day and month comparisons + each lead story's own chart
+   COLOUR white paper, black ink, newspaper red accent, slate blue support; night = dark slate
+   TYPE Noto Serif JP 900 headlines + Noto Sans JP body
+   LAYOUT laptop: board in 3 columns, lead + chart side by side; phone: board 2 columns, one column, share bar fixed at bottom */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#12171b);--ink:light-dark(#141414,#eceff1);--mute:light-dark(#575c60,#a3acb2);--rule:light-dark(#dcdfe1,#2c353b);--red:light-dark(#c8102e,#ff5a6e);--blue:light-dark(#2e6f8e,#7cc0de);--panel:light-dark(#eef3f5,#1b2329);--line:#06c755}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html{scroll-padding-top:110px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 "Noto Sans JP","Hiragino Sans",sans-serif;overflow-x:clip}
+a{color:inherit}
+button{font:inherit;color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding:0 max(4vw,16px)}
+.mast{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px 24px;padding-top:22px;padding-bottom:12px;border-bottom:3px double var(--ink)}
+.title{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px}
+.logo{flex:none;background:var(--red);color:#fff;font:900 clamp(24px,4.4vw,38px)/1 "Noto Serif JP",serif;padding:10px 14px 12px;letter-spacing:.02em;white-space:nowrap}
+.meta{font-size:14px;color:var(--mute);line-height:1.5}
+.meta b{display:block;color:var(--ink);font-size:17px}
+.tabs{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--rule)}
+.tabrow{display:flex;gap:0}
+.tab{flex:1 1 0;max-width:220px;text-align:center;text-decoration:none;font:900 17px/1 "Noto Serif JP",serif;padding:14px 8px 12px;border-bottom:3px solid transparent;min-height:48px}
+.tab[aria-current=page]{border-color:var(--red);color:var(--red)}
+.sub{display:flex;gap:4px 18px;overflow-x:auto;padding:4px 0 8px;font-size:14px;scrollbar-width:none}
+.sub::-webkit-scrollbar{display:none}
+.sub button{flex:none;background:none;border:0;padding:6px 0;min-height:36px;cursor:pointer;color:var(--mute)}
+.sub button:hover,.sub button:focus-visible{color:var(--red)}
+.board{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--rule);margin-top:18px}
+.tile{padding:12px 14px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.tile:nth-child(3n){border-right:0}
+.tile:nth-last-child(-n+3){border-bottom:0}
+.tile .k{font-size:14px;font-weight:700;line-height:1.4}
+.tile .t{font-size:13px;color:var(--mute);line-height:1.4}
+.tile .v{font:700 clamp(20px,2.6vw,26px)/1.3 "Noto Sans JP",sans-serif;font-variant-numeric:tabular-nums;white-space:nowrap;margin:2px 0 4px}
+.tile .v small{font-size:14px;font-weight:500;margin-left:2px}
+.cmp2{display:grid;grid-template-columns:5.5em minmax(0,1fr);gap:0 8px;font-size:13px;line-height:1.6;margin:0}
+.cmp2 dt{color:var(--mute)}
+.cmp2 dd{margin:0;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
+.dn{color:var(--red)}.up{color:var(--blue)}.fl{color:var(--mute)}
+.brief{background:var(--panel);padding:16px 20px;margin:18px 0 0}
+.brief h2{font:900 18px/1.4 "Noto Serif JP",serif;margin:0 0 6px}
+.brief ol{margin:0;padding-left:1.4em}
+.brief li{margin:4px 0}
+.lead{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:32px;padding:26px 0 30px;border-bottom:1px solid var(--rule)}
+.kicker{display:inline-block;font-size:13px;font-weight:700;color:var(--red);border:1px solid var(--red);padding:1px 8px;margin-bottom:10px}
+h1{font:900 clamp(26px,4vw,42px)/1.25 "Noto Serif JP",serif;margin:0 0 14px;text-wrap:balance}
+.lead p{margin:0 0 12px}
+.why{border-left:3px solid var(--red);padding:4px 0 4px 14px;margin:16px 0}
+.why b{display:block;font-size:14px;color:var(--red)}
+.chart{background:var(--panel);padding:18px 20px}
+.chart h3{font:900 18px/1.4 "Noto Serif JP",serif;margin:0 0 4px}
+.chart .s{font-size:13px;color:var(--mute);margin:0 0 14px}
+.bar{display:grid;grid-template-columns:7.6em minmax(0,1fr) 4.4em;align-items:center;gap:10px;margin:10px 0;font-size:15px}
+.bar .t{height:28px;background:color-mix(in srgb,var(--ink) 8%,transparent);position:relative}
+.bar .f{position:absolute;inset:0 auto 0 0;background:var(--blue)}
+.bar.hot .f{background:var(--red)}
+.bar .v{font-weight:700;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.note{font-size:13px;color:var(--mute);margin-top:12px}
+.sec{padding:26px 0 8px;border-bottom:1px solid var(--rule)}
+.sec>h2{font:900 22px/1.3 "Noto Serif JP",serif;margin:0 0 14px;display:flex;align-items:center;gap:10px}
+.sec>h2::before{content:"";width:12px;height:12px;background:var(--red);flex:none}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 36px}
+.item{padding:14px 0 18px;border-top:1px solid var(--rule)}
+.item h3{font:900 19px/1.45 "Noto Serif JP",serif;margin:0 0 6px}
+.item p{margin:0 0 8px;font-size:15.5px}
+.tags{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center;font-size:13px;color:var(--mute)}
+.imp{display:inline-flex;align-items:center;gap:6px;font-weight:700;color:var(--ink);white-space:nowrap}
+.imp i{display:inline-flex;gap:3px}
+.imp i s{width:9px;height:9px;border-radius:50%;background:var(--rule)}
+.imp i s.on{background:var(--red)}
+.src a{color:var(--blue)}
+.re{background:var(--panel);padding:8px 12px;margin:8px 0;font-size:14.5px}
+.re b{color:var(--red)}
+.cmp{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px;align-items:start}
+.drow{display:grid;grid-template-columns:7.4em minmax(0,1fr) minmax(0,1fr) 4.4em;align-items:center;margin:7px 0;font-size:15px}
+.drow .l{padding-right:8px}
+.drow .n,.drow .p{height:22px;position:relative}
+.drow .n{border-right:1px solid var(--ink)}
+.drow .n i{position:absolute;right:0;top:0;bottom:0;background:var(--red)}
+.drow .p i{position:absolute;left:0;top:0;bottom:0;background:var(--blue)}
+.drow .v{text-align:right;font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums}
+.rates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:6px}
+.rate{background:var(--bg);padding:12px 14px}
+.rate span{display:block;font-size:13px;color:var(--mute)}
+.rate b{font:700 24px/1.3 "Noto Sans JP",sans-serif;white-space:nowrap;font-variant-numeric:tabular-nums}
+.rate em{display:block;font-style:normal;font-size:13px;font-weight:700}
+.cal{list-style:none;margin:0;padding:0}
+.cal li{display:grid;grid-template-columns:6.4em minmax(0,1fr);gap:14px;padding:10px 0;border-top:1px solid var(--rule)}
+.cal time{font:900 19px/1.35 "Noto Serif JP",serif;white-space:nowrap}
+.cal span{font-size:15px}
+.cal small{display:block;color:var(--mute);font-size:13px}
+.view[hidden]{display:none}
+.share{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:20px 0 6px}
+.share p{flex:1 1 100%;margin:0;font-size:14px;color:var(--mute)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 18px;border:1px solid var(--ink);background:var(--bg);text-decoration:none;font-weight:700;font-size:15px;cursor:pointer}
+.btn.line{background:var(--line);border-color:var(--line);color:#fff}
+.btn:focus-visible,.tab:focus-visible,.sub button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.toast{font-size:14px;color:var(--blue);min-height:1.5em}
+footer{padding:16px 0 40px;font-size:13px;color:var(--mute)}
+.dock{display:none}
+@media(max-width:760px){.lead,.cmp{grid-template-columns:minmax(0,1fr);gap:22px}.grid{grid-template-columns:minmax(0,1fr)}
+  .board{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .tile:nth-child(3n){border-right:1px solid var(--rule)}.tile:nth-child(2n){border-right:0}
+  .tile:nth-last-child(-n+3){border-bottom:1px solid var(--rule)}.tile:nth-last-child(-n+2){border-bottom:0}
+  .item h3{font-size:18px}
+  .dock{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:20;padding:8px max(12px,env(safe-area-inset-left,0px)) calc(8px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--rule)}
+  .dock .btn{flex:1;min-height:44px;padding:0 10px;font-size:14px}
+  footer{padding-bottom:96px}
+  .tab{max-width:none}}
+@media(max-width:520px){.cmp2{grid-template-columns:minmax(0,1fr)}.cmp2 dt{margin-top:4px}.cmp2 dd{font-size:14px;white-space:normal}.mast .meta:last-child{width:100%}}
+@media(max-width:420px){.tile{padding:10px 10px}.logo{font-size:24px;padding:9px 12px 10px}.bar{grid-template-columns:6.4em minmax(0,1fr) 3.9em}.drow{grid-template-columns:6em minmax(0,1fr) minmax(0,1fr) 4em}.rates{grid-template-columns:minmax(0,1fr)}}
+@media(prefers-reduced-motion:no-preference){.view{animation:fade .25s ease-out}@keyframes fade{from{opacity:.4}to{opacity:1}}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="mast">
+      <div class="title"><div class="logo">KUWANA朝刊</div>
+        <div class="meta"><b>2026年11月26日（木）</b>経済・政治・行政・税制を不動産の目線で</div></div>
+      <div class="meta">毎朝8:30配信 ・ サンプル版</div>
+    </div>
+  </div>
+  <nav class="tabs" aria-label="ページ">
+    <div class="wrap">
+      <div class="tabrow"><a class="tab" href="#japan" data-v="japan">国内</a><a class="tab" href="#world" data-v="world">国際経済</a></div>
+      <div class="sub" id="sub"></div>
+    </div>
+  </nav>
+</header>
+
+<main class="wrap">
+  <section class="board" id="board" aria-label="主要指標"></section>
+
+  <!-- ===== 国内 ===== -->
+  <div class="view" id="v-japan">
+    <section class="brief" aria-label="今日の3行まとめ"><h2>今日の3行まとめ</h2><ol><li>非上場株式の相続税評価の見直しは、<b>2027年度改正では結論を見送り</b>。自民党税調が25日に決定。悪用防止策は年末まで協議。</li><li>東京23区の中古マンション価格は<b>5カ月連続で下落</b>（10月・1億2,421万円）。税制の行方待ちで「様子見」が続く。</li><li>長期金利は<b>2.627%に低下</b>。12月の住宅ローンは変動が上げ、10年固定は下げの動き。</li></ol></section>
+    <article class="lead" id="j-top"><div><span class="kicker">一面 ・ 相続・事業承継</span><h1>非上場株の相続税評価、見直しを先送り　自民税調「時間をかけて検討」</h1><p>自民党税制調査会は25日、非上場株式（上場していない会社の株）の相続税評価を新しい方式に変える見直しについて、2027年度の税制改正では結論を出さないことを決めました。小野寺税調会長は「時間をかけて引き続き検討する」と述べました。</p><p>国税庁がまとめた案では、一部の企業で相続税額が3〜6倍になるとされ、批判が集中していました。今の評価方法（似た業種の上場会社の株価などをもとに計算する類似業種比準方式など）を使った行きすぎた節税を防ぐ対策は、年末まで協議を続けます。</p><div class="why"><b>不動産への影響</b>急な増税の心配はひとまず遠のき、オーナー経営者が承継対策を急ぐ必要は小さくなりました。ただ、悪用防止策の中身と事業承継税制の特例の扱いは12月中旬の大綱まで分かりません。株と一緒に不動産を引き継ぐ計画や、相続対策での物件購入は、大綱を見てから判断する動きが続きそうです。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s class="on"></s><s class="on"></s></i> 大</span><span class="src">出典：<a href="https://daily.co.jp/society/economics/2026/11/25/0021072498.shtml">共同通信（デイリースポーツ）</a> ／ <a href="https://www.jimin.jp/news/information/214656.html">自民党</a></span></div></div><div class="chart" aria-label="相続・事業承継　決まったこと・未定のこと"><h3>相続・事業承継　決まったこと・未定のこと</h3><p class="s">11月26日時点</p><div class="rates" id="c-lead-j"></div><p class="note">貸付用不動産の見直しは2026年度改正で決まったものです。</p></div></article>
+    <section class="sec" id="j-tax"><h2>税制</h2><div class="grid"><div class="item"><h3>相続・事業承継ウォッチ　評価の新方式は見送り、特例と悪用防止策は大綱へ</h3><p><b>決まったこと：</b>非上場株の評価の新方式は、2027年度改正では見送りです（11月25日）。また、取得後5年以内の貸付用不動産を相続した場合は、原則として時価で評価します（2026年度改正で決定、2027年以後の相続から）。</p><p><b>未定のこと：</b>今の方式の悪用防止策、事業承継税制の特例の見直し（経産省は抜本的な見直し・強化を要望）、住宅資金贈与の非課税の延長です。12月中旬の大綱で決まる見通しです。日本維新の会は、評価見直しの結論を2029年度改正までに出すよう求めています。</p><div class="re"><b>不動産への影響</b>　評価の大きな見直しは先送りでも、短期の「不動産を買って評価を下げる」対策はすでに使いにくくなっています。相続対策の相談では、物件の取得時期と評価方法の確認が欠かせません。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s class="on"></s><s class="on"></s></i> 大</span><span class="src">出典：<a href="https://www.zeiri4.com/c_6/n_1268/">税理士ドットコム</a> ／ <a href="https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2027/request/meti/09y_meti_k_33.pdf">経産省の要望書</a></span></div></div><div class="item"><h3>住宅資金の贈与非課税、12月31日で期限　延長は大綱で判断</h3><p>親や祖父母から住宅購入資金をもらう場合、省エネ住宅なら1,000万円、それ以外は500万円まで贈与税がかかりません。期限は2026年12月31日で、延長するかは大綱で判断されます。</p><div class="re"><b>不動産への影響</b>　年内に贈与と契約を済ませれば今の制度を確実に使えます。期限前の駆け込み相談に備えましょう。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s class="on"></s><s class="on"></s></i> 大</span><span class="src">出典：<a href="https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2027/request/mlit/09y_mlit_k_25.pdf">国交省の要望書</a></span></div></div><div class="item"><h3>固定資産税・不動産取得税の特例、相続空き家の3,000万円控除　延長を要望</h3><p>来年3月に期限を迎える固定資産税や不動産取得税の特例などについて、国交省は延長を要望しています。相続した空き家を売ったとき、売却益から3,000万円を差し引ける特例も延長要望の対象です。</p><div class="re"><b>不動産への影響</b>　延長されなければ、新築購入時や相続した空き家の売却時の税負担が増えます。空き家の売却相談では、特例の期限と条件の確認を。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s class="on"></s><s></s></i> 中</span><span class="src">出典：<a href="https://lab.iyell.jp/knowledge/realestate/mortgage-tax-deduction_2027-1/">いえーる 住宅研究所</a></span></div></div><div class="item"><h3>新築マンションの短期転売への課税強化、大綱に向け詰め</h3><p>新築マンションを1年以内に売った場合の売却益の税率を52%にする案について、大綱に向けて詰めの議論が続いています。不動産取得税の軽減を短期転売の物件に使えなくする案も検討されています。</p><div class="re"><b>不動産への影響</b>　住む目的の購入への影響は小さい見込みです。短期の転売を前提にした購入には直接響きます。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s class="on"></s><s></s></i> 中</span><span class="src">出典：<a href="https://kumanichi.com/articles/2058441">共同通信（熊日）</a></span></div></div><div class="item"><h3>食料品の消費税1%法案、参院で公聴会　会期末は12月12日</h3><p>食料品の消費税を2027年4月から2年間1%に下げる法案は、参議院で公聴会が開かれました。成立するかは、会期末の12月12日までの審議しだいです。</p><div class="re"><b>不動産への影響</b>　直接の影響は小さいです。財源が決まっていないため、長期金利の動きに注意が必要です。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s></s><s></s></i> 小</span><span class="src">出典：<a href="https://www.inatei.com/entry/consumption-tax-cut-bill-sangiin-2026">本家いなてい</a></span></div></div></div></section><section class="sec" id="j-rate"><h2>金利・住宅ローン</h2><div class="cmp"><div><div class="item"><h3>日銀・田村審議委員が26日10時に講演　12月会合の手がかりに</h3><p>日銀の田村審議委員が26日午前10時から講演します。12月17〜18日の金融政策決定会合で利上げするかどうかの手がかりとして、市場が注目しています。</p><div class="re"><b>不動産への影響</b>　利上げに前向きな発言が出れば、変動金利の先高観が強まります。借入中の人は返済額の確認を。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s class="on"></s><s class="on"></s></i> 大</span><span class="src">出典：<a href="https://www.gaitame.com/media/entry/2026/11/26/071432">外為どっとコム</a></span></div></div><div class="item"><h3>長期金利2.627%に低下　株安で国債が買われる</h3><p>25日の長期金利は2.627%で、前日より0.093pt下がりました。株価が下がり、安全とされる国債が買われました。1カ月前と比べると0.210pt低い水準です。</p><div class="re"><b>不動産への影響</b>　長期金利の低下は、フラット35など固定金利の上昇を抑える方向に働きます。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s class="on"></s><s></s></i> 中</span><span class="src">出典：<a href="https://www.zaikei.co.jp/article/20261125/879100.html">フィスコ（財経新聞）</a></span></div></div><div class="item"><h3>12月の住宅ローン、変動は上げ・10年固定は下げ</h3><p>楽天銀行などでは、12月の住宅ローン金利で変動金利を上げ、10年固定を下げる動きが出ています。9月の利上げの反映と、最近の長期金利の低下が理由です。</p><div class="re"><b>不動産への影響</b>　変動と固定の差が縮まり、固定金利を選ぶ人が増える可能性があります。新規借入では両方の比較を。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s class="on"></s><s></s></i> 中</span><span class="src">出典：<a href="https://diamond-fudosan.jp/articles/-/1113378">ダイヤモンド不動産研究所</a></span></div></div></div><div class="chart" aria-label="住宅ローン金利　11月の水準"><h3>住宅ローン金利　11月の水準</h3><p class="s">新規借入。12月分は12月1日ごろ発表</p><div class="rates" id="rates"></div><p class="note">12月分は、楽天銀行などで変動金利が上がり、10年固定は下がる動きです。フラット35は返済期間21〜35年・融資率9割以下の最低金利。</p><p class="note"><span class="src">出典：<a href="https://diamond-fudosan.jp/articles/-/1113378">ダイヤモンド不動産研究所</a> ／ <a href="https://kumanichi.com/articles/2057785">共同通信（熊日）</a></span></p></div></div></section><section class="sec" id="j-market"><h2>不動産市場</h2><div class="cmp"><div><div class="item"><h3>23区の中古マンション1億2,421万円、5カ月連続の下落</h3><p>10月の東京23区の中古マンション価格は1億2,421万円で、5カ月続けて下がりました。都心部では2013年3月以来の前年割れです。</p><div class="re"><b>不動産への影響</b>　売り手が強気だった都心で、価格の調整が続いています。売却の相談では、売り出し価格を相場に合わせる必要が出ています。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s class="on"></s><s></s></i> 中</span><span class="src">出典：<a href="https://tokyonewsmedia.com/archives/30870">東京報道新聞</a></span></div></div><div class="item"><h3>税制改正大綱待ちで様子見　12月中旬が節目</h3><p>相続税評価や短期転売への課税など、不動産に関わる税制の行方が12月中旬の大綱まで決まりません。新築の初月契約率も48.3%と低く、買い手の慎重さが目立ちます。</p><div class="re"><b>不動産への影響</b>　大綱が出るまでは、相続対策や投資目的の購入が先送りされやすい状況です。年明けに動きが戻るかが焦点です。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s class="on"></s><s></s></i> 中</span><span class="src">出典：<a href="https://kumanichi.com/articles/2059658">共同通信（熊日）</a></span></div></div></div><div class="chart" aria-label="数字で見るマンション市場"><h3>数字で見るマンション市場</h3><p class="s">東京23区・首都圏、10月</p><div class="rates" id="c-market"></div><p class="note">中古は東京報道新聞、新築は不動産経済研究所（共同通信の報道より）。</p></div></div></section><section class="sec" id="j-econ"><h2>経済・政治</h2><div class="grid"><div class="item"><h3>日経平均、1,633円安の57,011円　不動産株は上昇</h3><p>25日の東京市場は大きく値下がりしました。一方、不動産株は値上がりしました。1カ月前と比べると9.1%低い水準です。</p><div class="re"><b>不動産への影響</b>　金利低下が不動産株を支えています。株安が続くと、富裕層の高額物件の購入意欲は弱まりやすくなります。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s class="on"></s><s></s></i> 中</span><span class="src">出典：<a href="https://www.oanda.jp/lab-education/market_news/mn_1045754_202611251753/">OANDA証券</a></span></div></div><div class="item"><h3>第2次補正予算は災害対応中心で小規模に</h3><p>高市首相が編成を指示した第2次補正予算は、災害への対応を中心にした小さな規模になる見通しです。</p><div class="re"><b>不動産への影響</b>　規模が小さければ国債の増発は限られ、長期金利への影響も小さくなります。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s></s><s></s></i> 小</span><span class="src">出典：<a href="https://ryukyushimpo.jp/economics/entry-5614064.html">琉球新報</a></span></div></div></div></section>
+    <section class="sec" id="j-cal"><h2>今後の予定（国内）</h2><ul class="cal" id="calJ"></ul></section>
+  </div>
+
+  <!-- ===== 国際経済 ===== -->
+  <div class="view" id="v-world" hidden>
+    <section class="brief" aria-label="国際経済の3行まとめ"><h2>国際経済の3行まとめ</h2><ol><li>米USTRが<b>日本など14カ国・地域に新関税案</b>。日本は12.5%から最大15%、対米投資の約束を守らなければ20%。</li><li>米10月のPCE物価は<b>前年比3.8%上昇</b>。FRBは12月8〜9日の会合で利上げの見方。</li><li>フーシ派が<b>サウジ最大の製油所を攻撃</b>。WTIは83.68ドル。</li></ol></section>
+    <article class="lead" id="w-top"><div><span class="kicker">国際一面 ・ 米国通商</span><h1>米USTR、14カ国・地域に新関税案　日本は最大15%、約束違反なら20%</h1><p>米通商代表部（USTR）は、日本を含む14の国・地域への新しい関税案を示しました。日本への税率は12.5%から最大15%です。日本が約束した対米投資を守らない場合は、20%に上げるとしています。</p><p>来年1月に公聴会を開いて意見を聞き、そのうえで決める予定です。来年1月には、民主党が多数派の新しい議会も始まります。</p><div class="why"><b>不動産への影響</b>関税が上がると、日本の輸出企業の利益が減り、株価や賃上げを通じて住宅需要に響きます。円相場が振れやすくなり、金利や建築費の見通しも変わりやすくなります。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s class="on"></s><s class="on"></s></i> 大</span><span class="src">出典：<a href="https://news.ksb.co.jp/ann/article/17080349">テレビ朝日系（ANN）</a></span></div></div><div class="chart" aria-label="日本への新関税案"><h3>日本への新関税案</h3><p class="s">USTRの案。来年1月の公聴会を経て決定</p><div id="c-lead-w"></div><p class="note">まだ案の段階で、決まっていません。</p></div></article>
+    <section class="sec" id="w-us"><h2>米国</h2><div class="grid"><div class="item"><h3>米10月のPCE物価、3.8%上昇　FRBは12月利上げの見方</h3><p>FRBが重視する10月の個人消費支出（PCE）物価指数は、前の年より3.8%上がりました。インフレが続いており、FRBは12月8〜9日の会合で利上げするとの見方が強まっています。</p><div class="re"><b>不動産への影響</b>　米国の利上げで日米の金利差が縮まらず、円安が続きやすくなります。日本の長期金利の上げ圧力にもなります。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s class="on"></s><s class="on"></s></i> 大</span><span class="src">出典：<a href="https://news.ksb.co.jp/ann/article/17080356">テレビ朝日系（ANN）</a></span></div></div><div class="item"><h3>ダウは164ドル高の50,182ドル　一時1,100ドル超安</h3><p>25日のニューヨーク市場は値動きが荒く、ダウ平均は一時1,100ドル以上下げたあと、164ドル高の50,182ドルで終えました。26日は感謝祭で休場です。</p><div class="re"><b>不動産への影響</b>　米国株の荒い値動きは、海外投資家のリスクを取る意欲を弱め、東京の不動産への投資資金にも響きます。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s class="on"></s><s></s></i> 中</span><span class="src">出典：<a href="https://fx.minkabu.jp/news/385451">みんかぶFX</a></span></div></div></div></section><section class="sec" id="w-world"><h2>中東・中国・欧州</h2><div class="grid"><div class="item"><h3>フーシ派がサウジ最大の製油所を攻撃　WTIは83.68ドル</h3><p>イエメンの武装組織フーシ派が、サウジアラビア最大の製油所を攻撃しました。米国産原油（WTI）は1バレル83.68ドルです。24日に一時80ドルを割っていた原油は、再び上がっています。</p><div class="re"><b>不動産への影響</b>　原油高は資材や設備の値上がりを通じて建築費を押し上げます。新築価格が下がりにくい要因です。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s class="on"></s><s></s></i> 中</span><span class="src">出典：<a href="https://www.newsweekjapan.jp/articles/-/341264">ロイター（ニューズウィーク日本版）</a></span></div></div><div class="item"><h3>中国の不動産投資、1〜10月は21.6%減</h3><p>中国の1〜10月の不動産開発投資は、前の年より21.6%減りました。住宅市場の低迷が続いています。</p><div class="re"><b>不動産への影響</b>　中国本土の不動産の先行きが暗いままだと、富裕層の資金が海外に向かい、東京の高額物件の需要を支える一因になります。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s></s><s></s></i> 小</span><span class="src">出典：<a href="https://www.stats.gov.cn/english/PressRelease/202611/t20261117_1965879.html">中国国家統計局</a></span></div></div><div class="item"><h3>ECB、12月17日に利上げの見方</h3><p>欧州中央銀行（ECB）は、12月17日の理事会で利上げするとの見方が出ています。</p><div class="re"><b>不動産への影響</b>　世界的な利上げの流れは、日本の長期金利にも上げ圧力になります。</div><div class="tags"><span class="imp">影響度 <i><s class="on"></s><s></s><s></s></i> 小</span><span class="src">出典：<a href="https://www.nri.com/jp/media/column/kiuchi/20261030_2.html">野村総合研究所</a></span></div></div></div></section>
+    <section class="sec" id="w-cal"><h2>今後の予定（海外）</h2><ul class="cal" id="calW"></ul></section>
+  </div>
+
+  <section class="share" aria-label="共有">
+    <p>チームに共有：「LINEで送る」で全文版とこのページのリンクが送れます。PDFもここから開けます。</p>
+    <a class="btn line" id="lineBtn" href="#">LINEで送る</a>
+    <button class="btn" id="copyBtn" type="button">全文をコピー</button>
+    <a class="btn" href="../pdf/kuwana-2026-11-26.pdf">PDFで見る</a>
+    <a class="btn" href="./">過去の号</a>
+    <span class="toast" id="toast" role="status"></span>
+  </section>
+
+  <footer>
+    サンプル版。2026年11月26日8時時点で公開されている報道と公的資料をもとに作成しました。指標の「前日比」は直前の営業日（11月24日）との比較、「1カ月前比」は約1カ月前の同じ日付近との比較です。検討中の税制は、年末の大綱や国会で内容が変わる可能性があります。個別の税務判断は税理士にご確認ください。
+  </footer>
+</main>
+
+<div class="dock" aria-label="共有"><a class="btn line" id="lineBtn2" href="#">LINEで送る</a><a class="btn" href="../pdf/kuwana-2026-11-26.pdf">PDF</a></div>
+
+<script>
+{
+  const URL_PAGE = "https://ukai-koh987.github.io/kuwana-choukan/";
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+  // 指標ボード：全タイル共通で2行の比較。c = 色（dn=下落・悪化, up=上昇・低下, fl=変化なし）
+  const board = [{"k": "日経平均", "t": "11月25日 終値", "v": "57,011", "u": "円", "r": [["前日比", "−1,633円（−2.8%）", "dn"], ["1カ月前比", "−5,682円（−9.1%）", "dn"]]}, {"k": "ドル円", "t": "11月25日 NY終値", "v": "159.17", "u": "円", "r": [["前日比", "−0.18円（円高）", "up"], ["1カ月前比", "+2.21円（円安）", "dn"]]}, {"k": "長期金利（10年）", "t": "11月25日", "v": "2.627", "u": "%", "r": [["前日比", "−0.093pt", "up"], ["1カ月前比", "−0.210pt", "up"]]}, {"k": "変動金利（最低）", "t": "11月 新規借入", "v": "1.195", "u": "%", "r": [["前月比", "±0pt", "fl"], ["前月", "1.195%", "fl"]]}, {"k": "フラット35（最低）", "t": "11月 新規借入", "v": "3.81", "u": "%", "r": [["前月比", "−0.02pt", "up"], ["前月", "3.83%", "fl"]]}, {"k": "23区 新築マンション", "t": "10月 平均価格", "v": "1億2,937", "u": "万円", "r": [["前月比", "−1,003万円（−7.2%）", "dn"], ["前月", "1億3,940万円", "fl"]]}];
+  document.getElementById("board").innerHTML = board.map(b =>
+    `<div class="tile"><div class="k">${esc(b.k)}</div><div class="t">${esc(b.t)}</div><div class="v">${esc(b.v)}<small>${esc(b.u)}</small></div><dl class="cmp2">${b.r.map(([l,x,c]) => `<dt>${esc(l)}</dt><dd class="${c}">${esc(x)}</dd>`).join("")}</dl></div>`).join("");
+
+  // 図：bars = 横棒（max は棒の最大値）、tiles = 数字のカード
+  const charts = [{"id": "c-lead-j", "type": "tiles", "title": "相続・事業承継　決まったこと・未定のこと", "s": "11月26日時点", "items": [{"k": "非上場株の新しい評価方式", "v": "見送り", "e": "2027年度改正では結論を出さない（決定）", "c": "up"}, {"k": "今の方式の悪用防止策", "v": "協議中", "e": "年末の大綱までに決める", "c": "fl"}, {"k": "事業承継税制の特例", "v": "2027年末", "e": "期限。延長・見直しは未定", "c": "dn"}, {"k": "貸付用不動産（取得5年以内）", "v": "時価評価", "e": "2027年以後の相続から（決定済み）", "c": "dn"}], "notes": ["貸付用不動産の見直しは2026年度改正で決まったものです。"]}, {"id": "c-lead-w", "type": "bars", "max": 25, "title": "日本への新関税案", "s": "USTRの案。来年1月の公聴会を経て決定", "items": [{"k": "案の下限", "v": 12.5, "t": "12.5%"}, {"k": "案の上限", "v": 15, "t": "15%"}, {"k": "約束違反の場合", "v": 20, "t": "20%", "hot": true}], "notes": ["まだ案の段階で、決まっていません。"]}, {"id": "rates", "type": "tiles", "title": "住宅ローン金利　11月の水準", "s": "新規借入。12月分は12月1日ごろ発表", "items": [{"k": "フラット35 最低", "v": "3.81%", "e": "前月比 −0.02pt（前月 3.83%）", "c": "up"}, {"k": "変動金利 最低", "v": "1.195%", "e": "前月比 ±0pt（前月 1.195%）", "c": "fl"}], "notes": ["12月分は、楽天銀行などで変動金利が上がり、10年固定は下がる動きです。フラット35は返済期間21〜35年・融資率9割以下の最低金利。", "<span class=\"src\">出典：<a href=\"https://diamond-fudosan.jp/articles/-/1113378\">ダイヤモンド不動産研究所</a> ／ <a href=\"https://kumanichi.com/articles/2057785\">共同通信（熊日）</a></span>"]}, {"id": "c-market", "type": "tiles", "title": "数字で見るマンション市場", "s": "東京23区・首都圏、10月", "items": [{"k": "23区 中古マンション", "v": "1億2,421万円", "e": "5カ月連続の下落", "c": "dn"}, {"k": "23区 新築マンション", "v": "1億2,937万円", "e": "前月比 −7.2%", "c": "dn"}, {"k": "首都圏 新築の初月契約率", "v": "48.3%", "e": "好調の目安70%を下回る", "c": "dn"}, {"k": "都心部 中古", "v": "前年割れ", "e": "2013年3月以来", "c": "dn"}], "notes": ["中古は東京報道新聞、新築は不動産経済研究所（共同通信の報道より）。"]}];
+  charts.forEach(c => {
+    const el = document.getElementById(c.id); if (!el) return;
+    if (c.type === "bars") el.innerHTML = c.items.map(b =>
+      `<div class="bar${b.hot?" hot":""}"><span>${esc(b.k)}</span><span class="t"><span class="f" style="width:${b.v/c.max*100}%"></span></span><span class="v">${esc(b.t)}</span></div>`).join("");
+    else el.innerHTML = c.items.map(r =>
+      `<div class="rate"><span>${esc(r.k)}</span><b>${esc(r.v)}</b><em class="${r.c}">${esc(r.e)}</em></div>`).join("");
+  });
+
+  const calJ = [{"d": "11月26日", "t": "日銀・田村審議委員の講演", "s": "午前10時から。12月会合の手がかりに"}, {"d": "11月30日", "t": "大手行が12月の変動金利を発表", "s": "12月は変動が上げの見込み"}, {"d": "12月1日", "t": "フラット35の12月金利が発表", "s": "毎月第1営業日の正午ごろ"}, {"d": "12月12日", "t": "臨時国会の会期末", "s": "食料品の消費税1%法案が成立するか"}, {"d": "12月中旬", "t": "与党の2027年度税制改正大綱の決定（予定）", "s": "悪用防止策、事業承継税制、住宅資金贈与、短期転売への課税"}, {"d": "12月18日", "t": "日銀の金融政策決定会合の結果発表", "s": "17〜18日開催。1.5%への利上げがあるか"}, {"d": "12月31日", "t": "住宅取得等資金の贈与非課税の期限", "s": "延長されなければ年内の贈与が最後"}];
+  const calW = [{"d": "11月26日", "t": "米国は感謝祭で休場", "s": "27日は短縮取引"}, {"d": "12月9日", "t": "米FOMCの結果発表（日本時間10日未明）", "s": "8〜9日開催。利上げの見方"}, {"d": "12月17日", "t": "ECB理事会", "s": "利上げの見方"}, {"d": "1月", "t": "USTR新関税案の公聴会／米国で新議会", "s": "日本への税率は12.5〜15%の案"}];
+  const cal = (id, a) => document.getElementById(id).innerHTML = a.map(c =>
+    `<li><time>${esc(c.d)}</time><span>${esc(c.t)}<small>${esc(c.s)}</small></span></li>`).join("");
+  cal("calJ", calJ); cal("calW", calW);
+
+  // ページ切り替え（#japan / #world）とセクションリンク
+  const subs = {"japan": [["j-top", "一面"], ["j-tax", "税制"], ["j-rate", "金利・住宅ローン"], ["j-market", "不動産市場"], ["j-econ", "経済・政治"], ["j-cal", "予定"]], "world": [["w-top", "新関税"], ["w-us", "米国"], ["w-world", "中東・中国・欧州"], ["w-cal", "予定"]]};
+  const show = () => {
+    const v = location.hash === "#world" ? "world" : "japan";
+    document.getElementById("v-japan").hidden = v !== "japan";
+    document.getElementById("v-world").hidden = v !== "world";
+    document.querySelectorAll(".tab").forEach(t => { if (t.dataset.v === v) t.setAttribute("aria-current","page"); else t.removeAttribute("aria-current"); });
+    document.getElementById("sub").innerHTML = subs[v].map(([id, n]) => `<button type="button" data-go="${id}">${esc(n)}</button>`).join("");
+  };
+  document.getElementById("sub").addEventListener("click", e => {
+    const b = e.target.closest("button[data-go]"); if (!b) return;
+    document.getElementById(b.dataset.go)?.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"});
+  });
+  window.addEventListener("hashchange", () => { show(); window.scrollTo(0, 0); });
+  show();
+
+  // 共有用テキスト：リンクを開けなくても内容が分かる「全文版」
+  const text = [
+    "【KUWANA朝刊】2026年11月26日（木）",
+    "",
+    "■今日の3行まとめ",
+    "1. 非上場株の相続税評価の見直しは2027年度改正で結論見送り。悪用防止策は年末まで協議",
+    "2. 23区の中古マンションは5カ月連続下落（10月・1億2,421万円）。大綱待ちの様子見が続く",
+    "3. 米USTRが14カ国・地域に新関税案。日本は12.5%から最大15%、約束違反なら20%",
+    "",
+    "■指標",
+    "日経平均 57,011円（前日比 −2.8%／1カ月前比 −9.1%）",
+    "ドル円 159.17円（前日比 −0.18円 円高／1カ月前比 +2.21円 円安）",
+    "長期金利 2.627%（前日比 −0.093pt）",
+    "変動金利（最低）1.195%（前月比 ±0pt）",
+    "フラット35（最低）3.81%（前月比 −0.02pt）",
+    "23区新築マンション 1億2,937万円（前月比 −7.2%）",
+    "",
+    "■相続・事業承継ウォッチ",
+    "決定：非上場株評価の新方式は2027年度改正で見送り（11月25日）。取得5年以内の貸付用不動産は2027年以後の相続から原則時価評価。",
+    "未定：悪用防止策、事業承継税制の特例、住宅資金贈与非課税の延長。12月中旬の大綱で決まる見通し。",
+    "",
+    "■税制",
+    "【大】非上場株の評価見直しを先送り。自民税調「時間をかけて検討」",
+    "【大】住宅資金贈与の非課税は12月31日期限。延長は大綱で判断",
+    "【中】固定資産税・不動産取得税の特例、相続空き家3,000万円控除の延長要望",
+    "【中】新築マンション短期転売の課税強化（1年以内52%案）、大綱に向け詰め",
+    "【小】食料品消費税1%法案、参院で公聴会（会期末12月12日）",
+    "",
+    "■金利・住宅ローン",
+    "【大】日銀・田村審議委員が26日10時に講演。12月会合の手がかりに",
+    "【中】長期金利2.627%に低下。12月は変動が上げ、10年固定は下げの動き",
+    "",
+    "■不動産市場",
+    "【中】23区中古1億2,421万円、都心部は2013年3月以来の前年割れ",
+    "【中】大綱待ちの様子見。新築の初月契約率は48.3%",
+    "",
+    "■経済・政治",
+    "【中】日経平均1,633円安の57,011円。不動産株は上昇",
+    "",
+    "■国際経済",
+    "【大】USTRが新関税案。日本は最大15%、1月に公聴会",
+    "【大】米10月PCE物価3.8%上昇。FRBは12月8〜9日に利上げの見方",
+    "【中】フーシ派がサウジ最大の製油所を攻撃。WTIは83.68ドル",
+    "",
+    "■今後の予定",
+    "11月30日 変動金利の12月分発表／12月1日 フラット35の12月金利",
+    "12月10日未明 FOMC結果／12月中旬 税制改正大綱／12月18日 日銀会合の結果",
+    "12月31日 住宅資金贈与非課税の期限",
+    "",
+    "【大】【中】【小】は不動産への影響度です。",
+    "",
+    "紙面（グラフ・PDFあり）はこちら",
+    URL_PAGE
+  ].join("\n");
+  const lineHref = "https://line.me/R/share?text=" + encodeURIComponent(text);
+  ["lineBtn","lineBtn2"].forEach(id => { const a = document.getElementById(id); a.href = lineHref; a.target = "_blank"; a.rel = "noopener"; });
+  const toast = document.getElementById("toast");
+  const copy = async () => {
+    try { await navigator.clipboard.writeText(text); toast.textContent = "コピーしました。LINEのトークに貼り付けてください。"; }
+    catch (e) { toast.textContent = "コピーできませんでした。ページのURLを長押しして共有してください。"; }
+    document.getElementById("copyBtn").scrollIntoView({block:"nearest"});
+  };
+  document.getElementById("copyBtn").addEventListener("click", copy);
+}
+</script>
+</body>
+</html>
